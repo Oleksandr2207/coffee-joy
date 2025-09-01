@@ -1,0 +1,27 @@
+.subscribe-heading {
+	margin-bottom: 24px;
+}
+
+.subscribe-subtitle {
+	margin-bottom: 32px;
+}
+
+.subscribe-form {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+
+	margin-bottom: 16px;
+}
+
+.subscribe-label {}
+
+.subscribe-input {}
+
+.subscribe-button {}
+
+.subscribe-prevention {
+	margin-bottom: 32px;
+}
+
+.subscribe-image {}
