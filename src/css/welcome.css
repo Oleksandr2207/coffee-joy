@@ -2,6 +2,10 @@
 .welcome {
   padding: 64px;
 }
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .welcome-sup-title {
   font-weight: 600;
@@ -51,7 +55,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .welcome-title {
-    font-size: 36px;
+  .welcome-container {
   }
 }
