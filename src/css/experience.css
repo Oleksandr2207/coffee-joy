@@ -2,6 +2,9 @@ body {
   margin: 0;
 }
 
+.section-experience .container {
+}
+
 .section-experience {
   padding: 64px 0;
   margin: 0 auto;
@@ -16,6 +19,14 @@ body {
 .experience-p {
   text-align: center;
   margin-bottom: 32px;
+}
+
+.experience-li img {
+  border-radius: 32px;
+}
+
+.section-experience picture {
+  display: block;
 }
 
 .experience-ul {
@@ -34,33 +45,10 @@ body {
   }
 }
 
-@media screen and (min-width: 1156px) {
+@media screen and (min-width: 1440px) {
   .experience-ul {
     max-width: 1312px;
     height: 948px;
     flex-direction: column;
   }
-}
-
-.experience-li {
-  min-height: 169px;
-  max-height: 416px;
-
-  min-width: 288px;
-  max-width: 416px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1155px) {
-  .experience-li:last-child {
-    width: 704px;
-  }
-}
-
-.experience-li img {
-  border-radius: 32px;
-}
-
-.section-experience picture {
-  display: block;
-  width: 100%;
 }
