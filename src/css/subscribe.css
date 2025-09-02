@@ -118,13 +118,14 @@
 	}
 }
 
-.subscribe-button:hover,
+.subscribe-button:hover {
+	opacity: 0.5;
+}
+
 .subscribe-button:focus {
-	background: transparent;
-	box-shadow: none;
 	outline: none;
-	color: #0B0803;
-	fill: #0B0803;
+	box-shadow: none;
+	opacity: 1;
 }
 
 .subscribe-icon-container {
@@ -134,11 +135,6 @@
 
 .subscribe-icon {
 	fill: #FFFFFF;
-}
-
-.subscribe-button:hover .subscribe-icon,
-.subscribe-button:focus .subscribe-icon {
-	fill: #0B0803;
 }
 
 .subscribe-prevention {
