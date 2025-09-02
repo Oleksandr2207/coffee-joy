@@ -49,10 +49,7 @@ justify-content: center;
 flex-direction: column;
 gap: 32px;
 }
-.footer-logo {
-    width: 196px;
-height: 84px;
-}
+
 .footer-nav-link {
 color: #0b0803;
 }
