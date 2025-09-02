@@ -48,6 +48,7 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 32px;
+width: 84px;
 }
 
 .footer-nav-link {
@@ -89,6 +90,7 @@ width: 704px;
   .footer-nav-column {
     flex-direction: row;
     justify-content: flex-start;
+    width: 456px;
     
   }
   .footer-logo {
@@ -103,6 +105,9 @@ height: 24px;
 align-items: flex-start;
 flex-direction: row;
 gap: 64px;
+  }
+  .footer-social-column {
+    width: 96px;
   }
 }
 
@@ -123,6 +128,7 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 12px;
+width: 96px;
 }
 .footer-nav-column {
   display: flex;
@@ -130,6 +136,7 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 32px;
+width: 456px;
 }
 .footer-copyright {
 justify-content: flex-start;
