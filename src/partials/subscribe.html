@@ -1,17 +1,30 @@
-<section class="subscribe ">
+<section class="subscribe section">
 	<div class="container">
-		<h2 class="subscribe-heading">Join Our Coffee Community</h2>
-		<p class="subscribe-subtitle">Experience the joy of coffee delivered right to your door. Sign up today!</p>
+		<div class="actions">
+			<h2 class="subscribe-heading">Join Our Coffee Community</h2>
+			<p class="subscribe-subtitle">Experience the joy of coffee delivered right to your door. Sign up today!</p>
+			<form class="subscribe-form">
+				<label class="subscribe-label" for="email">
+					<input class="subscribe-input" id="email" type="email" placeholder="Your Email Here">
+				</label>
+				<button class="subscribe-button" type="submit">Subscribe
+					<span class="subscribe-icon-container">
+						<svg class="subscribe-icon" width="24" height="24">
+							<use href="/img/Sprite.svg#icon-subscribe"></use>
+						</svg>
+					</span>
+				</button>
+			</form>
+			<p class="subscribe-prevention">By clicking Get Started, you agree to our Terms and Conditions.</p>
+		</div>
 
-		<form class="subscribe-form">
-			<label class="subscribe-label" for="email">
-				<input class="subscribe-input" id="email" type="email" placeholder="Your Email Here">
-			</label>
-		<button class="subscribe-button" type="submit">Subscribe</button>
-		</form>
-
-		<p class="subscribe-prevention">By clicking Get Started, you agree to our Terms and Conditions.</p>
-
-		<img class="subscribe-image" width="288" height="400">
+		<div class="subscribe-image">
+			<picture>
+				<source media="(max-width: 767px)" srcset="/img/subscribe/subscribe-mobile-min.jpg 1x, /img/subscribe/subscribe-mobile@2x-min.jpg 2x">
+				<source media="(min-width: 1440px)" srcset="/img/subscribe/subscribe-desktop-min.jpg 1x, /img/subscribe/subscribe-desktop@2x-min.jpg 2x">
+				<source media="(min-width: 768px)" srcset="/img/subscribe/subscribe-tablet-min.jpg 1x, /img/subscribe/subscribe-tablet@2x-min.jpg 2x">
+				<img src="/img/subscribe/subscribe-mobile-min.jpg" alt="employees work in office">
+			</picture>
+		</div>
 	</div>
 </section>
