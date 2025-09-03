@@ -91,7 +91,6 @@
   max-height: 307px;
   border-radius: 40px;
   overflow: hidden;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +120,7 @@ iframe {
 @media only screen and (min-width: 768px) {
   .contacts-list {
     flex-direction: row;
-    align-items: space-between;
+    justify-content: space-between;
   }
 
   .map-container {
@@ -138,6 +137,7 @@ iframe {
 @media only screen and (min-width: 1440px) {
   .location {
     flex-direction: row;
+    justify-content: space-between;
   }
   .contacts-list {
     flex-direction: column;
