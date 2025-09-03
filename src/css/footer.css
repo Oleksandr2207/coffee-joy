@@ -116,7 +116,6 @@ gap: 64px;
 flex-direction: row;
 gap: 64px;
 width: 1312px;
-height: 100px; 
 }
 
 .footer-logo-container {
@@ -131,12 +130,8 @@ gap: 12px;
 width: 96px;
 }
 .footer-nav-column {
-  display: flex;
 align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 32px;
-width: 456px;
+
 }
 .footer-copyright {
 justify-content: flex-start;
