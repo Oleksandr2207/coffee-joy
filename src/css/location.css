@@ -110,14 +110,14 @@ iframe {
   margin-bottom: 16px;
 }
 
-/* shrinks container for tablet only */
+/* shrinks text container for tablet only */
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
-  .contacts-item-wrap {
+  .loc-contacts-item {
     width: 208px;
   }
 }
 
-/* Tablet от 768px */
+/* for Tablet 768px */
 @media only screen and (min-width: 768px) {
   .contacts-list {
     flex-direction: row;
