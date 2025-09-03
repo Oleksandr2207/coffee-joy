@@ -150,6 +150,7 @@
 	opacity: 0.5;
 }
 
+.subscribe-button:focus,
 .subscribe-button:active {
 	outline: none;
 	box-shadow: none;
