@@ -72,6 +72,8 @@
 	}
 }
 
+.subscribe-input-container {}
+
 .subscribe-input {
 	border: 1px solid rgba(11, 8, 3, 0.15);
 	border-radius: 12px;
@@ -100,6 +102,23 @@
 
 .subscribe-input:focus {
 	outline: none;
+}
+
+.subscribe-input:not(:placeholder-shown):invalid {
+	border: 1px solid #7F1C1C;
+	color: #7F1C1C;
+}
+
+.email-invalid {
+	display: none;
+	font-family: "Quicksand", sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #7F1C1C;
+}
+
+.subscribe-input:not(:placeholder-shown):invalid + .email-invalid {
+	display: block;
 }
 
 .subscribe-button {
