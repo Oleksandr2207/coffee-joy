@@ -1,11 +1,14 @@
 /* section welcome */
 .welcome {
-  padding: 64px;
+  padding: 64px 0;
 }
 .welcome-container {
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 32px;
+  width: 100%;
+  max-width: 768px;
+  align-items: flex-start;
 }
 
 .welcome-sup-title {
@@ -32,7 +35,7 @@
   font-size: 22px;
   line-height: 1.5;
   color: #0b0803;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .welcome-bth {
@@ -61,21 +64,52 @@
 }
 .welcome-img {
   border-radius: 40px;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 .welcome-image {
   width: 288px;
 }
 
+.welcome-bth:hover,
+.welcome-bth:focus {
+  background-color: #ab9079;
+}
+
+.button-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
 @media screen and (min-width: 768px) {
   .welcome-container {
+    display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: flex-start;
   }
   .welcome-title {
     width: 336px;
-    height: npm run dev;
     font-size: 36px;
+  }
+
+  .welcome-text {
+    font-size: 18px;
+  }
+
+  .welcome-bth {
+    width: 181px;
+  }
+  .welcome-image {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .welcome {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 0;
   }
 }
