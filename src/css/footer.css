@@ -25,6 +25,8 @@ flex-direction: row;
 gap: 12px;
 }
 .footer-content {
+
+width: 100%;
   margin-bottom: 32px;
     display: flex;
 align-items: center;
