@@ -31,7 +31,7 @@
 
 .experience-li img {
   border-radius: 32px;
-  width: 336px;
+  width: 100%;
 }
 
 .section-experience picture {
@@ -60,4 +60,36 @@
     height: 948px;
     flex-direction: column;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .last-img {
+    width: 100%;
+  }
+}
+
+.experience-li {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .experience-li {
+    width: calc((100% - 32px) / 2);
+  }
+  .last-li {
+    width: 100%;
+  }
+  .last-img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .experience-li {
+    width: calc((100% - 64px) / 3);
+  }
+}
+
+.picture {
+  width: 100%;
 }
