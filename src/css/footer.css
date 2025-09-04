@@ -25,8 +25,7 @@ flex-direction: row;
 gap: 12px;
 }
 .footer-content {
-
-  width: 292px;
+  margin-bottom: 32px;
     display: flex;
 align-items: center;
 justify-content: space-between;
@@ -52,7 +51,6 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 32px;
-width: 84px;
 }
 
 .footer-nav-link {
@@ -68,9 +66,9 @@ color: #0b0803;
 .footer-copyright {
     display: flex;
 align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 32px;
+justify-content: center;
+flex-direction: row;
+gap: 64px;
 }
 
 /* Hover Focus */
@@ -95,12 +93,10 @@ flex-direction: row;
   }
   .footer-content {
 width: 704px;
-height: 156px;
   }
   .footer-nav-column {
     flex-direction: row;
     justify-content: flex-start;
-    width: 456px;
     
   }
   .footer-logo {
@@ -112,7 +108,7 @@ height: 36px;
 height: 24px;
   }
   .footer-copyright {
-align-items: flex-start;
+align-items: center;
 flex-direction: row;
 gap: 64px;
   }
@@ -123,7 +119,6 @@ gap: 64px;
 
 @media screen and (min-width: 1440px) {
 .footer-content {
-  height: 100px;
 flex-direction: row;
 gap: 64px;
 width: 1312px;
@@ -140,7 +135,7 @@ height: 36px;
 
 
 .footer-copyright {
-justify-content: flex-start;
+justify-content: center;
 flex-direction: column;
 gap: 32px;
 
