@@ -1,0 +1,98 @@
+.hero {
+  padding: 108px 0px;
+  margin: 0 auto;
+  background-image: url('../img/hero/mob-hero-min.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+.hero .container {
+  padding-left: 32px;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 311px 0px;
+    background-image: url('../img/hero/tab-hero-min.jpg');
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero.container {
+    padding: 259px 32px;
+    background-image: url('../img/hero/desk-hero-min.jpg');
+  }
+}
+@media (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../img/hero/mob-hero@2x-min.jpg');
+  }
+}
+@media (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../img/hero/tab-hero@2x-min.jpg');
+  }
+}
+@media (min-width: 1440px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../img/hero/desk-hero@2x-min.jpg');
+  }
+}
+.hero-title {
+  font-family: 'Aboreto';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-align: left;
+  max-width: 256px;
+  margin: 0 0 24px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    max-width: 560px;
+  }
+}
+
+.hero-item {
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  max-width: 256px;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .hero-item {
+    max-width: 560px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+}
+.hero-btn {
+  display: inline-block;
+  background: #6f4e37;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 135px;
+  white-space: nowrap;
+  min-height: 44px;
+}
+
+.hero-btn:hover {
+  box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+  background: #6f4e37;
+  opacity: 0.5;
+}
