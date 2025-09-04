@@ -4,6 +4,8 @@
 
 .header-container {
     padding: 18px 0;
+    padding-right: 28px;
+    padding-left: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,12 +16,11 @@
 }
 
 .header-logo {
-    padding-left: 16px;
     display: block;
 }
 
+
 .burger-btn {
-    padding-right: 28px;
     border: none;
     background-color: transparent;
 }
@@ -30,6 +31,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header-container {
+    padding-right: 36px;
+    padding-left: 48px;
+  }
+
   .burger-btn {
     display: none;
   }
@@ -39,7 +45,6 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding-right: 64px;
   }
 
   .nav-list {
@@ -47,15 +52,17 @@
     gap: 32px;
   }
 
-  .header-logo {
-    padding-left: 48px;
-  }
-
   .nav-link {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #8b7d6d;
   }
 
 }
