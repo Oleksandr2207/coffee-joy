@@ -1,0 +1,152 @@
+
+
+
+
+
+/* footer */
+.footer-logo {
+  display: block;
+}
+.page-footer {
+   display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+gap: 32px;
+padding-block: 24px;
+padding-inline: 16px;
+background: #b58869;
+}
+.footer-social-column {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 12px;
+}
+.footer-content {
+
+  width: 292px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+gap: 32px;
+border: 1px solid rgba(11, 8, 3, 0.15);
+border-radius: 40px;
+padding-block: 32px;
+padding-inline: 48px;
+background: #c29d84;
+}
+
+.footer-logo-container {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 40px;
+}
+.footer-nav-column {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 32px;
+width: 84px;
+}
+
+.footer-nav-link {
+color: #0b0803;
+}
+.copyright-text {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+color: #0b0803;
+}
+
+.footer-copyright {
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+gap: 32px;
+}
+
+/* Hover Focus */
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+opacity: 0.5;
+}
+
+
+
+/* media */
+
+@media screen and (min-width: 768px) {
+  .footer-logo-container {
+flex-direction: row;
+  }
+
+  .logo-22 {
+    width: 64px;
+    height: 37px;
+  }
+  .footer-content {
+width: 704px;
+height: 156px;
+  }
+  .footer-nav-column {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 456px;
+    
+  }
+  .footer-logo {
+    width: 84px;
+height: 36px;
+  }
+  .social-icon {
+    width: 24px;
+height: 24px;
+  }
+  .footer-copyright {
+align-items: flex-start;
+flex-direction: row;
+gap: 64px;
+  }
+  .footer-social-column {
+    width: 96px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+.footer-content {
+  height: 100px;
+flex-direction: row;
+gap: 64px;
+width: 1312px;
+}
+.logo-22 {
+    height: 36px;
+  }
+
+.footer-logo-container {
+  justify-content: flex-start;
+  width: 220px;
+height: 36px;
+}
+
+
+.footer-copyright {
+justify-content: flex-start;
+flex-direction: column;
+gap: 32px;
+
+}
+
+}
+
+
+
