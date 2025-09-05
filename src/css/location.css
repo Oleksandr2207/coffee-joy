@@ -1,10 +1,20 @@
-.location {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+#location {
   padding-top: 64px;
   padding-bottom: 64px;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loc-contacts-container {
+  width: 100%;
+}
+
+.loc-contacts-container {
+  margin-bottom: 32px;
 }
 
 .loc-title {
@@ -41,10 +51,9 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 32px;
 }
 
-.contacts-item-names {
+.loc-contacts-item-names {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -83,12 +92,14 @@
   line-height: 1.5;
   color: #0b0803;
   margin-bottom: 16px;
-  max-width: 288px;
+  min-width: 208px;
 }
 
 .loc-map-container {
-  max-width: 288px;
+  width: 100%;
   max-height: 307px;
+
+  height: auto;
   border-radius: 40px;
   overflow: hidden;
   display: flex;
@@ -127,25 +138,22 @@
     max-width: 704px;
     max-height: 377px;
   }
-
-  .location {
-    align-items: start;
-  }
 }
 
 /* for Desktop devices */
 @media only screen and (min-width: 1440px) {
-  .location {
+  .location-container {
     flex-direction: row;
     justify-content: space-between;
+    align-items: start;
   }
   .loc-contacts-list {
     flex-direction: column;
     align-items: start;
   }
   .loc-map-container {
-    max-width: 869px;
-    max-height: 697px;
+    min-width: 869px;
+    min-height: 697px;
   }
 
   .loc-contacts-link:hover {
@@ -155,8 +163,11 @@
   .loc-contacts-link:focus {
     opacity: 0.7;
   }
-
-  .loc-contacts-list {
+  .loc-contacts-container {
     margin-bottom: 0;
+  }
+
+  .loc-contacts-container {
+    max-width: 419px;
   }
 }
