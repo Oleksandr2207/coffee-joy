@@ -68,7 +68,6 @@
 	.subscribe-email-container {
 		flex-direction: row;
 		gap: 16px;
-		margin-bottom: 0;
 	}
 }
 
