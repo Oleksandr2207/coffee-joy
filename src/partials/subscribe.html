@@ -6,7 +6,7 @@
 			<form class="subscribe-form">
 				<div class="subscribe-email-container">
 					<div class="subscribe-input-container">
-						<input class="subscribe-input" id="email" type="email" placeholder="Your Email Here" required />
+						<input class="subscribe-input" id="email" type="email" placeholder="Your Email Here" aria-label="email" required />
 						<p class="email-invalid">Invalid Email</p>
 					</div>
 					<button class="subscribe-button" type="submit">Subscribe
@@ -17,16 +17,16 @@
 						</span>
 					</button>
 				</div>
-				<label class="subscribe-label" for="email">By clicking Get Started, you agree to our Terms and Conditions.</label>
+				<p class="subscribe-label">By clicking Get Started, you agree to our Terms and Conditions.</p>
 			</form>
 		</div>
 
-		<div class="subscribe-image">
+		<div class="subscribe-image-container">
 			<picture>
 				<source media="(max-width: 767px)" srcset="/img/subscribe/subscribe-mobile-min.jpg 1x, /img/subscribe/subscribe-mobile@2x-min.jpg 2x">
 				<source media="(min-width: 1440px)" srcset="/img/subscribe/subscribe-desktop-min.jpg 1x, /img/subscribe/subscribe-desktop@2x-min.jpg 2x">
 				<source media="(min-width: 768px)" srcset="/img/subscribe/subscribe-tablet-min.jpg 1x, /img/subscribe/subscribe-tablet@2x-min.jpg 2x">
-				<img src="/img/subscribe/subscribe-mobile-min.jpg" alt="employees work in office">
+				<img class="subscribe-image" src="/img/subscribe/subscribe-mobile-min.jpg" alt="employees work in office">
 			</picture>
 		</div>
 	</div>
